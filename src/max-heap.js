@@ -26,7 +26,7 @@ class MaxHeap {
 	}
 
 	isEmpty() {
-		
+		return this.root === null;
 	}
 
 	clear() {
